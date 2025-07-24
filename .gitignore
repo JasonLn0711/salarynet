@@ -4,5 +4,5 @@ __pycache__/
 # VSCode Configuration
 .vscode/
 
-# .pyc
-.pyc
+# *.pyc files
+*.pyc
