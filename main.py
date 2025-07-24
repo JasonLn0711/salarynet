@@ -4,7 +4,7 @@ def calc_after_tax(salary):
     # fixed ratio for tax calculation
     labor_insurance = salary * 0.08
     health_insurance = salary * 0.02
-    pension = salary * 0.06
+    pension = salary * 0.08           # the initial one is 0.06
     income_tax = salary * 0.05
 
     net_income = salary - (
