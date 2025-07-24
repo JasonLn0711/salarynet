@@ -11,7 +11,14 @@ def calc_after_tax(salary):
         labor_insurance + health_insurance + pension + income_tax)
     return round(net_income, 2)
 
+def show_menu():
+    print("==== SalaryNet Calculator ====")
+    try:
+        salary = float(input("Enter your salary: "))
+        result = calc_after_tax(salary)
+        print(f"\nYour salary after tax is: {result}")
+    except ValueError:
+        print("Invalid input. Please enter a numeric value for salary.")
+
 if __name__ == "__main__":
-    salary = float(input("Enter your salary: "))
-    net = calc_after_tax(salary)
-    print(f"Your salary after tax is: {net}")
+    show_menu()
