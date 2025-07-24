@@ -21,5 +21,7 @@ def show_menu():
     except ValueError:
         print("Invalid input. Please enter a numeric value for salary.")
 
+print("All the insurances include labor, health, and pension.")
+
 if __name__ == "__main__":
     show_menu()
