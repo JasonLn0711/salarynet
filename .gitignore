@@ -1,0 +1,8 @@
+# Python cache files
+__pycache__/
+
+# VSCode Configuration
+.vscode/
+
+# .pyc
+.pyc
